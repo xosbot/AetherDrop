@@ -1,0 +1,12 @@
+{
+  "name": "aetherdrop-root",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "npm install --prefix backend && node backend/server",
+    "build": "echo 'Root build complete'"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
